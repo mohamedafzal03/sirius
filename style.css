@@ -1,0 +1,36 @@
+body{
+    background-color: #442d4b;
+    color:#ffff;
+}
+.add_movie_form{
+    width:500px;
+    padding:0px 400px
+}
+.add_movie_form input,.add_movie_form textarea,.add_movie_form select
+{
+    height:40px;
+    width:100%;
+    display: :block;
+    box-sizing:border-box;
+    background:#442d4b;
+    padding:0 5px;
+    font-family: inherit;
+    border:1px solid white;
+    margin:10px 0 10px;;
+    color:white;
+       font-size:2 rem
+}
+.add_movie_form select{
+    background: url("images/downarrow.png")no-repeat right;
+    background-color:#442d4b
+}
+.add_movie_form .divide{
+    width:45%;
+    display:inline-block;
+    margin:11px;
+}
+.add_movie_form input[type=submit]{
+    background-color:orange;
+    width:30%;
+    margin:20px 170px;
+}
